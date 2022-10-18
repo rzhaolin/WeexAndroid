@@ -48,4 +48,4 @@ sdk下的weex_core是weex C++部分源码
 
 2）本地bundle方式：如果想运行本地bundle，将bundle放到app/assets/dist下，将WeexProxyActivity中的loadPage改为loadLocalFile()，运行项目；
 
-3) 网络bundle方式：如果想运行网络bundle，将WeexProxyActivity中的loadPage改为loadByUrl()，运行项目；
+3) 网络bundle方式：如果想运行网络bundle，将WeexProxyActivity中的loadPage改为loadByUrl()，运行项目.
