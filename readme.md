@@ -44,8 +44,10 @@ sdk下的weex_core是weex C++部分源码
 
 ### 4.如何运行项目
 
-1) 在local.properties中设置您的sdk、ndk地址
+1)在local.properties中设置您的sdk、ndk地址;
 
-2）本地bundle方式：如果想运行本地bundle，将bundle放到app/assets/dist下，将WeexProxyActivity中的loadPage改为loadLocalFile()，运行项目；
+2)选择bundle运行方式
 
-3) 网络bundle方式：如果想运行网络bundle，将WeexProxyActivity中的loadPage改为loadByUrl()，运行项目.
+本地bundle：如果想运行本地bundle，把bundle放到app/assets/dist下，将WeexProxyActivity的loadPage改为loadLocalFile()，运行项目；
+
+网络bundle：如果想运行网络bundle，将WeexProxyActivity的loadPage改为loadByUrl()，运行项目.
